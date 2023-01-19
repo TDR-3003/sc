@@ -6,7 +6,9 @@
 <hr>
 🚀 SEBELUM INSTALL SCRIPT HARAP DAFTARKAN DULU IP VPS KAMU 🚀
 <h2 align="center">
-🚀 KIRIM IP VPS KE SAYA DI WA : 085754292950  🚀
+🚀 KIRIM IP VPS KE SAYA LEWAT WA DI BAWAH INI  🚀
+```
+https://api.whatsapp.com/send/?phone=6285754292950&text&type=phone_number&app_absent=0
 <h2><hr>
 <h2 align="center">
 🚀 Autoscript SSH XRAY Websocket Multiport By TARAP KUHING 🚀
