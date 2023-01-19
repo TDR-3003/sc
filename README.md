@@ -70,6 +70,7 @@ https://api.whatsapp.com/send/?phone=6285754292950&text&type=phone_number&app_ab
 
   ```html
  apt-get update && apt-get upgrade -y && reboot
+   
   ```
 <h2 align="center">
 🚀 Installation Script By TARAP KUHING 🚀<br>
