@@ -289,7 +289,6 @@ wget -O running "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/run
 wget -O clearcache "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/clearcache.sh"
 wget -O m-ssws "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/m-ssws.sh"
 wget -O m-trojan "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/m-trojan.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/wgmenu.sh"
 
 # menu ssh ovpn
 wget -O m-sshovpn "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/menu/m-sshovpn.sh"
@@ -303,7 +302,7 @@ wget -O delete "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/delet
 wget -O autokill "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/tendang.sh"
-wget -O sshws "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/sshws.sh"
+wget -O insshws "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/sshws/insshws.sh"
 wget -O issue "https://raw.githubusercontent.com/Tarap-Kuhing/sc/main/ssh/issue.net"
 
 # menu system
@@ -337,8 +336,6 @@ chmod +x clearcache
 chmod +x m-ssws
 chmod +x m-trojan
 
-chmod +x wgmenu
-
 chmod +x m-sshovpn
 chmod +x usernew
 chmod +x trial
@@ -350,7 +347,7 @@ chmod +x delete
 chmod +x autokill
 chmod +x ceklim
 chmod +x tendang
-chmod +x sshws
+chmod +x insshws
 chmod +x issue
 
 chmod +x m-system
