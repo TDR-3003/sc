@@ -67,7 +67,7 @@
 🚀 Update VPS Kamu Dulu Sebelum Instal Script 🚀<br>
 
   ```html
- apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
+ apt-get update && apt-get upgrade -y && reboot
   ```
 <h2 align="center">
 🚀 Installation Script By TARAP KUHING 🚀<br>
