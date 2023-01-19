@@ -32,8 +32,6 @@
 <br>
 [ XRAY SERVICES ] <br>
 <br>
-✅ Support Wildcard <br>
-<br>
 ✅ SSH SSL Websocket : 443 <br>
 <br>
 ✅ Vmess WS TLS : 443 <br>
@@ -69,7 +67,7 @@
 🚀 Update VPS Kamu Dulu Sebelum Instal Script 🚀<br>
 
   ```html
- apt update && apt upgrade -y && apt dist-upgrade -y && reboot
+ apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
   ```
 <h2 align="center">
 🚀 Installation Script By TARAP KUHING 🚀<br>
