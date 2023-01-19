@@ -103,10 +103,9 @@ echo -e " [\e[36m•2\e[0m] Vmess Menu"
 echo -e " [\e[36m•3\e[0m] Vless Menu"
 echo -e " [\e[36m•4\e[0m] Shadowsocks Menu"
 echo -e " [\e[36m•5\e[0m] Trojan Menu"
-echo -e " [\e[36m•6\e[0m] Wireguard Menu"
-echo -e " [\e[36m•7\e[0m] System Menu"
-echo -e " [\e[36m•8\e[0m] Status Service"
-echo -e " [\e[36m•9\e[0m] Clear RAM Cache"
+echo -e " [\e[36m•6\e[0m] System Menu"
+echo -e " [\e[36m•7\e[0m] Status Service"
+echo -e " [\e[36m•8\e[0m] Clear RAM Cache"
 echo -e   ""
 echo -e   " Press x or [ Ctrl+C ] • To-Exit-Script"
 echo -e   ""
@@ -123,10 +122,9 @@ case $opt in
 3) clear ; m-vless ;;
 4) clear ; m-ssws ;;
 5) clear ; m-trojan ;;
-6) clear ; wgmenu ;;
-7) clear ; m-system ;;
-8) clear ; running ;;
-9) clear ; clearcache ;;
+6) clear ; m-system ;;
+7) clear ; running ;;
+8) clear ; clearcache ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu ;;
 esac
