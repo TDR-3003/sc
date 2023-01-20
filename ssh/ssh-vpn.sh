@@ -177,7 +177,7 @@ echo "=== Install Dropbear ==="
 apt -y install dropbear
 sed -i 's/NO_START=1/NO_START=0/g' /etc/default/dropbear
 sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=143/g' /etc/default/dropbear
-sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 50000 -p 109 -p 110 -p 443"/g' /etc/default/dropbear
+sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 50000 -p 109 -p 110 -p 69"/g' /etc/default/dropbear
 echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/ssh restart
@@ -193,14 +193,17 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
+[dropbear]
+accept = 443
+connect = 127.0.0.1:22
 
 [dropbear]
 accept = 777
 connect = 127.0.0.1:109
 
 [ws-stunnel]
-accept = 222
-connect = 127.0.0.1:443
+accept = 2096
+connect = 700
 
 [openvpn]
 accept = 442
